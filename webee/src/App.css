@@ -1,0 +1,439 @@
+@media(max-width:1440px)
+{
+    .hero_text{
+        padding-top: 20rem !important;
+    }   
+}
+
+@media(max-width :1024px)
+{
+    .hero_text h1{
+        font-size: 4rem !important;
+        /* font-weight: bold; */
+    }
+
+    .hero_text{
+        max-width: 80rem !important;
+        padding-left: 0 !important;
+        padding-top: 20rem !important;
+    }
+
+    .hero_text .line2{
+        padding-left: 32rem;
+    }
+
+    .column1{
+        margin-top: 8rem !important;
+        margin-bottom: 4rem;
+        margin-left: 3rem !important;
+    }
+
+    .col1 h1{
+        font-size: 6rem !important;
+    }
+
+    .column2,.column3 {
+    margin-top: 3rem !important;
+    margin-bottom: 2rem !important;
+    margin-left: 2rem !important;
+    margin-right: 2rem !important;
+    }
+
+    .left_text
+    {
+        margin-top: 3rem !important;
+        margin-left: 5rem !important;
+        margin-right: 5rem !important;
+        margin-bottom: 3rem !important;
+    }
+
+    /* .left_text p{    
+        max-width: 22rem !important;
+    } */
+
+    .review_section .review_text{
+        padding-left: 10rem !important;
+        max-width: 50rem !important;
+    }
+
+    .review_text h1{
+        font-size: 3rem !important;
+    }
+
+    .review_section .review_q {
+        padding-left: 7rem !important;
+    }
+    .us_left {
+        padding-left: 0.5rem !important;
+        padding-top: 0 !important;
+    }
+    .about_img{
+    height: 27rem !important;
+    width: 30rem !important;
+    margin: 0 !important;
+    }
+    .what_img{
+        width: 25rem !important;
+        padding-top: 2rem !important;
+    }
+    .what_text{
+        padding-top: 1.5rem !important;
+    }
+    .award_left{
+        padding-left: 0.5rem !important;
+        padding-top:2rem !important;
+    }
+    .award_right{
+        padding-left: 0 !important;
+    }
+    .award_img{
+        width: 30rem !important;
+        padding-left: 0 !important;
+    }
+    .award_right p{
+        padding-top: 0 !important;  
+        padding-bottom: 0 !important;
+    }
+    .left_text{
+        margin-left: 1rem !important;
+        margin-right: 1rem !important;
+    }
+    .digital_section img{
+        height: 39rem !important;
+    }
+    .digital_right .strategy_img{
+        height: 43rem !important;
+    }   
+}
+
+@media(max-width :768px)
+{
+    .section_hero{
+        height: 38rem !important;
+    }
+
+    .hero_text h1{
+        font-size: 3rem !important;
+        font-weight: bold;
+    }   
+
+    .hero_text .line2{
+        padding-left: 25rem;
+    }
+
+    .hero_text{
+        padding-top: 15rem;
+    }
+
+    .hero_text img{
+        height: 1rem !important;
+        width: 5rem !important;
+    }
+
+    .left_text
+    {
+        margin-top: 3rem !important;
+        margin-left: 5rem !important;
+        margin-right: 4rem !important;
+        margin-bottom: 3rem !important;
+    }
+
+    .review_section .review_text{
+        padding-left:9rem !important;
+        max-width: 42rem !important;
+    }
+
+    .review_text h1{
+        font-size: 2.5rem !important;
+    }
+
+    .review_section .review_q {
+        padding-left: 5.5rem !important;
+    }
+    .footer_section .row{
+        width: 100%;
+        padding-top: 5rem !important;
+        padding-left: 0.5rem !important;
+        padding-right: 0.5rem !important;
+    }
+    .text1 p{
+        max-width: 40rem !important;
+        font-size: 1.2rem !important;
+    }
+    .us_left{
+        padding-left: 5rem !important;
+    }
+    .us_left p{
+        max-width: 40rem !important;
+    }
+    .about_img{
+        padding-left: 3rem;
+        width: 40rem !important;
+        margin-left: 1rem !important;
+    }
+    .what_img{
+        width: 38rem !important;
+        height: 33rem;
+        padding-left: 0 !important;
+    }
+    .what_text{
+        padding-left: 5rem !important;
+        max-width: 45rem !important;
+    }
+    .award_right{
+        padding-left: 9rem !important;
+    }
+    .award_left{
+        padding-left: 4rem !important;
+    }
+    .award_img{
+        width: 30rem !important;
+        padding-left: 0 !important;
+    }
+    .award_right p{
+        padding-top: 0 !important;  
+        padding-bottom: 0 !important;
+    }
+}
+
+@media(max-width : 430px)
+{
+    .hero_text h1{
+        font-size: 1.5rem !important;
+        font-weight: bold;
+    } 
+
+    .hero_text .line2{
+        padding-left: 9rem !important
+    }
+
+    .hero_text{
+        padding-left: 1.5rem !important;
+        padding-top: 18rem !important;
+    }
+
+    .section_hero{
+        height: 30rem !important;
+    }
+    .col1 h1{
+        font-size: 5rem !important;
+    }
+    .left_text
+    {
+        margin-left: 1rem !important;
+        margin-right: 1rem !important;
+    }
+
+    .news1 h1{
+        font-size: 2rem !important;
+        margin-top: 10rem !important;
+        margin-bottom: 10rem !important;
+        margin-left: 5.5rem !important;
+        margin-right: 5.5rem !important;
+    }
+    .review_section .review_text{
+        padding-left:5rem !important;
+        max-width: 23rem !important;
+    }
+
+    .review_text h1{
+        font-size: 1.5rem !important;
+    }
+
+    .review_section .review_q {
+        padding-left: 5.5rem !important;
+    }
+
+    .review_text p{
+        font-size: 1rem !important;
+    }
+    .review_section img{
+        height: 30rem !important;
+    }
+    .isgec{
+        padding-top: 1rem !important;
+    }
+    .about_img{
+        padding-left: 0 !important;
+        margin: 0 !important;
+    }
+    .us_left{
+        padding-left: 1.5rem !important;
+    }
+    .what_img{
+        width: 23rem !important;
+        height: 20rem;
+    }
+    .what_text{
+        padding-left: 2rem !important;
+    }
+    .award_img{
+        width: 20rem !important;
+    }
+    .award_right{
+        padding-left: 3rem !important;
+        padding-top: 1rem !important;
+    }
+    .award_left{
+        padding-left: 1rem !important;
+    }
+}
+
+@media(max-width:432px)
+{
+    .line2{
+        padding-left: 15rem !important;
+    }
+    .hero_text{
+        padding-top: 15rem !important;
+    }
+    .hero_text h1{
+        font-size: 2rem !important;
+    }
+    .section_hero{
+        height: 35rem !important;
+    }
+    .column1 h1{
+        font-size: 2rem !important;
+        font-weight: 900 !important;
+    }
+    .left_text
+    {
+        margin-left: 1rem !important;
+        margin-right: 1rem !important;
+    }
+    .news1 h1{
+        font-size: 1.8rem !important;
+        margin-top: 10rem !important;
+        margin-bottom: 10rem !important;
+        margin-left: 5.5rem !important;
+        margin-right: 5.5rem !important;
+        font-weight: 800 !important;
+    }
+    .what_img{
+        padding-left: 1rem !important;
+        width: 22rem !important;
+        height: 22rem !important;
+        object-fit: cover;
+    }
+    .what_text{
+        padding-left: 1.5rem !important;
+    }
+    .award_img{
+        width: 25rem !important;
+    }
+    .award_right
+    {
+        padding-left: 1rem !important;
+    }
+    .about_img{
+        width: 25rem !important;
+        padding-left: 1rem !important;
+    }
+    .us_left{
+        padding-left: 2rem !important;
+        padding-right: 2rem !;
+    }
+    .award_left{
+        padding-left: 1rem !important;
+    }
+}
+
+@media(max-width : 380px)
+{
+    .hero_text h1{
+        font-size: 1.3rem !important;
+        font-weight: bold;
+    } 
+
+    .hero_text{
+        max-width: 70rem !important;
+        padding-top: 13rem!important;
+    }
+
+     .section_hero{
+        height: 25rem !important;
+    }
+
+    .hero_text .line2{
+        padding-left: 0rem !important
+    }
+    
+    .news1 h1{
+        font-size: 2rem !important;
+        margin-top: 10rem !important;
+        margin-bottom: 10rem !important;
+        margin-left: 3rem !important;
+        margin-right: 3rem !important;
+    }
+
+    .port_text{
+        padding-top: 3.2rem !important;
+    }
+    .review_section .review_q {
+        padding-left: 3rem !important;
+    }
+    .review_section .review_text{
+        padding-left: 4rem !important;
+        max-width: 20rem !important;
+    }
+    .review_text h1{
+        font-size: 1.3rem !important;
+    }
+    .about_img{
+        width: 21rem !important;
+        height: 15rem !important;
+    }
+    .us_text p{
+        font-size: 0.5rem !important;
+    }
+    .about_section{
+        padding-top: 0 !important;
+    }
+    .what_img{
+        width: 20rem !important;
+    }
+    .award_right{
+        padding-left: 2rem !important;
+    }
+    .award_img{
+        width: 20rem !important;
+    }
+}   
+
+@media(max-width : 322px)
+{
+    .hero_text{
+        max-width: 70rem !important;
+    }
+    .news1 h1{
+        font-size: 2rem !important;
+        margin-top: 10rem !important;
+        margin-bottom: 10rem !important;
+        margin-left: 2rem !important;
+        margin-right: 2rem !important;
+    }
+    .review_text p{
+        font-size: 0.9rem !important;
+        max-width: 10rem;
+    }
+    .review_section .review_text{
+        max-width: 15rem !important;
+    }
+    .about_img{
+        width: 18rem !important;
+    }
+    .what_img{
+        width: 17rem !important;
+        height: 15rem;
+    }
+    .what_text h1{
+        font-size: 2.2rem !important;
+    }
+    .award_img{
+        width: 18rem !important;
+    }
+    .award_right{
+        padding-left: 1.5rem !important;
+    }
+}   

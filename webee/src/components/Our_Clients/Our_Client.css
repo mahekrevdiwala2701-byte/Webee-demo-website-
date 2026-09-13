@@ -1,0 +1,83 @@
+.clients{
+    color: #1fb37a;
+}
+
+.client_text h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    padding: 0.5rem;
+}
+
+.client_text{
+    padding-top: 4rem;
+}
+
+.section_clients{
+    width: 100%;
+}
+
+.white{
+    background-color: white;
+}
+
+.yellow{
+    background-color: #FFD401;
+}
+
+.section_clients img{
+    width: 16rem;
+}
+
+.clients_icon{  
+    /* padding-left: 3rem; */
+    padding-right: 3rem;
+}
+
+.logos{
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.load_more{
+    padding-top: 3.5rem;
+    padding-bottom: 3rem;
+}
+
+.load{
+    background-color: #1fb37a;
+    border: 0;
+    width: 11rem;
+    height: 3rem;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    padding: 0.5rem;
+}
+
+.load:hover{
+    background-color: rgb(69, 67, 67);
+}
+.fade-in {
+  animation: fadeIn 0.5s ease-in forwards;
+  opacity: 0;
+}
+
+.after_click img{
+     width: 11rem ;
+     height: 3.5rem;
+}
+
+.bottom{
+    padding-bottom: 5rem;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,73 @@
+.review_section a{
+    font-size: 4rem;
+    color: #1fb37a;
+    text-decoration: none;
+}
+
+.review_section{
+    width: 100%;
+    overflow: hidden;
+}
+
+.review_section img{
+    height: 34rem;
+    position: relative;
+}
+
+.review_section .review_q {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-top: 7rem;
+  padding-left: 15rem;
+  font-size: 18rem;
+  color: #FFD500; 
+  font-weight: bolder;
+  font-family: Georgia, 'Times New Roman', Times, serif; 
+  line-height: 1;
+}
+
+.review_section .review_text{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 11rem;
+    padding-left: 18rem;
+    max-width: 80rem;
+}
+
+.review_text h1{
+    font-weight: bolder;
+    font-size: 3.5rem;
+}
+
+.review_text hr{
+    width: 8rem;
+    height: 0.2rem;
+    color: #178f61;
+}
+
+.review_text p{
+    font-family: 'Libre Baskerville',serif;
+    font-style: italic;
+    font-size: 1.6rem;
+}
+
+.slider3{
+    max-width: 85rem !important;  
+}
+
+
+.carousel-control-prev{
+    padding-right: 0;
+    margin-right: 0;
+}
+
+.carousel-control-next{
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.carousel-inner{
+    width: 100%;
+}

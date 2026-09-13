@@ -1,0 +1,48 @@
+.award_right{
+    padding-top: 3rem;
+}
+
+.award_img{
+    width:35rem;
+    padding-left: 3rem;
+}
+
+.award_Section{
+    padding-bottom: 3rem;
+    text-align: justify;
+}
+
+.award_left{
+    padding-top: 6rem;
+    padding-left: 9rem;
+}
+
+.award_heading{
+    color: #1fb37a;
+}
+
+.award_left h1{
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    font-size: 40px
+}
+
+.award_left hr{
+    width: 6rem;
+    height: 0.2rem;
+    background-color: rgb(184, 184, 25);
+}
+
+.award_left p{
+    padding-top: 1rem;
+    font-family:Montserrat, sans-serif;
+    font-size: 1.03rem;
+    line-height: 1.7rem;
+    font-weight: 400;
+    color: #565656;
+    max-width: 40rem;
+}
+
+.award_left p span{
+    font-weight: bold;
+}

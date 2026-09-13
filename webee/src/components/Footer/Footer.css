@@ -1,0 +1,148 @@
+.footer_section{
+    background-color: rgb(29, 28, 28);
+    height: 100%;
+    color: #fff;
+    width: 100%;    
+    font-family:'Libre Baskerville',serif;
+    text-align: justify;
+}
+
+
+.footer_section .row{
+    width: 100%;
+    padding-top: 6rem;
+    padding-bottom: 0;
+    padding-left: 7rem;
+    padding-right: 7rem;
+}
+
+.footer_logo{
+    width: 10rem;
+}
+
+.text1 p{
+    padding-top: 2rem;
+    max-width: 16rem;
+    font-weight: 500;
+    padding-bottom: 1rem;
+}
+
+.partner{
+    width: 9rem;
+}
+
+.footer_text h1{
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+
+.text2{
+    text-align: left;
+}
+
+.text2 p{
+    padding-top: 1rem;
+}
+
+.text2 a,.text3 a,.text4 a{
+    color: white;
+    text-decoration: none;
+}
+
+.text2 h1,.text3 h1{
+    font-size: 1.6rem ;
+    font-weight: 900;
+    font-family: Montserrat,sans-serif;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+}
+
+.text2 p,.text4 a{
+    max-width: 18rem;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.text2 ul{
+    list-style: none;
+    padding: 0;
+    padding-top: 1rem;
+}
+
+.text2 li{
+    padding: 0.3rem;
+    padding-left: 0;
+    font-weight: bold;
+    font-size: 1.05rem;
+}
+
+.text2 a:hover,.text3 a:hover{
+    color: #666;
+}
+
+
+.text3 h3{
+    font-family: Montserrat,sans-serif;
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    font-weight: 900;
+}
+
+.text3 p{
+    max-width: 18rem;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.icons{
+    gap:1rem;
+    padding: 2rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}
+  
+.icons a:hover{
+    color: yellow !important;
+}
+
+.text4 h1{
+    font-size: 1.6rem ;
+    font-weight: 900;
+    font-family: Montserrat,sans-serif;
+}
+
+.email{
+    padding: 1rem;
+    padding-left: 0%;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+}
+
+.email i{
+    padding-right: 0.7rem;
+}
+
+.email a{
+    color: #666;
+    padding-left: 0.4rem;
+}
+
+.email{
+    font-size: 1.2rem;
+}
+
+.text4 a:hover{
+    color: #666;
+}
+
+
+.footer_section hr{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+.copyright{
+    font-weight: 500;
+    font-size: 1.1rem; 
+}

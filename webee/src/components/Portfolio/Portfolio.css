@@ -1,0 +1,37 @@
+.portfolio_section{
+    background: url('../../assets/fixed_img.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 18rem;
+    background-attachment: fixed;
+}
+
+.port_text{
+    padding-top: 6rem;
+    font-weight: 800;
+    font-family: Montserrat,sans-serif;
+    font-size:2.3rem;
+}
+
+.port_text span{
+    color: #1fb37a;
+    font-weight: bold;
+}
+
+.port_btn{
+    background-color: rgb(255, 211, 1);
+    border: none;
+    width: 10rem;
+    height: 3rem;
+}
+
+.port_btn a{
+    color: white;
+    text-decoration: none;
+}
+
+.port_btn:hover{
+    background-color: #1fb37a;
+}

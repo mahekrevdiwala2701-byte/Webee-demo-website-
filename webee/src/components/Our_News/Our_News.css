@@ -1,0 +1,116 @@
+.news_Section .news1,.news_Section .news2,.news_Section .news3{
+    border: 0.01px solid #ddd;
+}
+
+.news_Section{
+    text-align: justify;
+}
+
+.news_Section .news1 h1{
+    font-size: 8rem;
+    text-align: justify;
+    font-family: Montserrat,sans-serif;
+    font-weight: bold;
+    margin-top: 6rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+}
+
+.news1 span{
+    color: #51c498;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    background-color: #51c498;
+    border-radius: 50%;
+    margin: 0 0.2rem;
+}
+
+.news2_text{
+    margin-top: 5rem;
+    margin-bottom: 4rem;
+    margin-left:5rem;
+    margin-right: 5rem;
+    text-align: justify;
+}
+
+.news2_text a,.news3_text a{
+    color:#303030;
+    /* font-style: italic; */
+    font-size: 1.5rem;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.news2_text h2,.news3_text h2{
+    font-family: Montserrat,sans-serif !important;
+    color: #000;
+    font-weight: bolder;
+    line-height: 0.7;
+    font-size: 3rem;
+    padding-bottom: 1.5rem;
+}
+
+.links{ 
+    color:#303030;
+    font-style: italic;
+    font-size: 1.5rem;
+    font-family: 'Libre Baskerville',serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.news2_text p,.news3_text p{
+    color: #666;
+    font-weight: 400;
+}
+
+.button{
+    font-size: 1rem;
+    font-family: Montserrat,sans-serif !important;
+    font-weight: bold;
+}
+
+.button span{
+    font-size:1.5rem;
+}
+
+.news3_text{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    margin-left:5rem;
+    margin-right: 5rem;
+    text-align: justify;
+}
+
+.checkout{
+    background-color: #f2f1f1;
+    height: 8rem;
+}
+
+.checkout a{
+    color: black;
+    font-family: Montserrat,sans-serif !important;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.checkout h1{
+    padding-top:3rem ;
+}
+
+.checkout span{
+    color: rgb(98, 168, 98);
+    padding-left: 0.5rem;
+    font-size: 1.8rem;
+}
+
+.news2_text h2 a:hover,.news3_text h2 a:hover{
+    color:#51c498;
+}
+
+.links:hover{
+    color: rgb(255, 211, 1);
+}

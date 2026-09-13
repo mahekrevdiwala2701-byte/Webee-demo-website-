@@ -1,0 +1,49 @@
+.desc{
+    background-color: #FFD401;
+    height: 12rem;
+}
+
+.desc_text{
+    font-size: 2.1rem;
+    font-weight: 800;
+    padding-top: 4rem;
+    font-family: Montserrat, sans-serif;
+    padding-bottom: 4rem;
+}
+
+@media(max-width:768px)
+{
+    .desc_text{
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+}
+
+@media(max-width:430px)
+{
+    .desc{
+        height: 22rem;
+    }
+    .desc_text{
+        padding-left: 3rem;
+        padding-right: 3rem;
+        font-size: 2rem;
+    }
+}
+
+@media(max-width:433px)
+{
+    .desc{
+        height: 22rem;
+    }
+}
+
+@media(max-width:376px)
+{
+    .desc_text{
+        font-size: 1.8rem;
+    }
+    .desc{
+        height: 20rem;
+    }
+}

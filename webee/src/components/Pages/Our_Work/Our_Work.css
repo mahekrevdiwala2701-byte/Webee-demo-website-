@@ -1,0 +1,125 @@
+.section_work h1{
+    font-family: Montserrat, sans-serif;
+    font-weight: 750;
+    font-size: 3.5rem;
+    /* padding-top: 2rem; */
+}
+
+.section_work{
+    padding: 4.5rem;
+    padding-top: 9rem !important;
+}
+
+.section_work button{
+    font-family: Montserrat,sans-serif;
+    padding-left: 1.5rem;
+    font-weight: 300;
+}
+
+.section_work h1 span{
+    color: #1fb37a;
+}
+
+.btn-success{
+    padding: 0.4rem 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    background-color: white;
+    border: 0;
+    color: black;
+}
+
+.btn-success:hover,
+.btn-outline-secondary:hover {
+    background-color:transparent !important;
+    color: green;
+    border: none;
+}
+
+.btn-success:active,
+.btn-outline-secondary:active {
+    background-color: transparent !important;
+    color: green;
+    border: none;
+}
+
+
+.btn-outline-secondary{
+    padding: 0.4rem 1rem;
+    background-color:transparent;
+    border:0;
+    color: black;
+}
+
+
+.section_work .card{
+    width: 20rem;
+    text-align: left;
+}
+
+.section_work .card img{
+    border: 6px solid rgb(213, 207, 207);
+}
+
+.title{
+    color: black;
+    text-decoration: none;
+}
+
+.title h3{
+    font-size: 1.2rem;
+    font-weight: 900;
+    margin-top: 1rem;
+    font-family: 'Arial', sans-serif;
+    padding-top: 1rem;
+}
+
+.title h3:hover{
+    color: #1fb37a;
+}
+
+.section_work p{
+    font-size: 1rem;
+  font-style: italic;
+  color: #444;
+  font-family: 'Georgia', serif;
+}
+
+@media(max-width:1024px)
+{
+    .section_work{
+        padding: 0 !important;
+        padding-top: 7rem !important;
+    }
+
+    .section_work .card{
+        padding: 0 !important;
+        max-width: 12rem !important;
+    }
+}
+
+@media(max-width:768px)
+{
+    .section_work .card{
+        max-width: 20rem !important;
+    }
+}
+
+@media(max-width:376px)
+{
+    .section_work .card{
+        max-width: 16rem !important;
+    }
+}
+
+@media(max-width:320px)
+{
+    .section_work .card{
+        max-width: 13rem !important;
+    }
+    .btn-outline-secondary,.btn-success{
+        font-size: 0.8rem !important;
+        margin-left: 1.2rem;
+        margin-right: 1.2rem;
+    }
+}

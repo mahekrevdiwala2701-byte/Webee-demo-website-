@@ -1,0 +1,14 @@
+.img_slider {
+    width: 10rem !important;
+    height: 10rem !important;
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
+}
+
+
+
+
+.slider_div{
+    padding-top: 7.1rem !important;
+}

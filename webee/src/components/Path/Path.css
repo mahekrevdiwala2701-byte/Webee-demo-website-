@@ -1,0 +1,17 @@
+.section_path{
+    background-color: rgb(245, 244, 244);
+    height: 5rem;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.path_text{
+    padding: 1.5rem;
+    margin-left: 5rem;
+}
+
+.path_text h1{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
