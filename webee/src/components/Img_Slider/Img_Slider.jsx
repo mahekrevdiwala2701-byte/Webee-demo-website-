@@ -13,7 +13,7 @@ const Img_Slider = () => {
             <div className="row">
   <div className="col-lg-6 col-md-6 col-sm-12 col_left">
     <div className="image-wrapper">
-      <img src={img1} className="img" />
+      <img src={img1} alt="" className="img" />
       <div className="img_overlay">Social Media Marketing</div>
     </div>
   </div>
@@ -22,13 +22,13 @@ const Img_Slider = () => {
     <div className="row">
       <div className="col-lg-6 col-md-6 col-sm-12 col_right1">
         <div className="image-wrapper">
-          <img src={rimg1} className="img" />
+          <img src={rimg1} alt="" className="img" />
           <div className="img_overlay">Content Marketing</div>
         </div>
       </div>
       <div className="col-lg-6 col-md-6 col-sm-12 col_right2">
         <div className="image-wrapper">
-          <img src={rimg2} className="img" />
+          <img src={rimg2} alt="" className="img" />
           <div className="img_overlay">Performance Ads</div>
         </div>
       </div>
@@ -36,13 +36,13 @@ const Img_Slider = () => {
     <div className="row">
       <div className="col-lg-6 col-md-6 col-sm-12 col_right3">
         <div className="image-wrapper text-center">
-          <img src={rimg3} className="img" />
+          <img src={rimg3} alt="" className="img" />
           <div className="img_overlay">Search Engine Optimization</div>
         </div>
       </div>
       <div className="col-lg-6 col-md-6 col-sm-12 col_right4">
         <div className="image-wrapper">
-          <img src={rimg4} className="img" />
+          <img src={rimg4} alt="" className="img" />
           <div className="img_overlay">Website Development</div>
         </div>
       </div>

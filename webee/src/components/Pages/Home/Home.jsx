@@ -1,12 +1,12 @@
 import React from 'react'
 import Hero from '../../Hero/Hero'
-import What_we_do from '../../What_we_do/What_we_do';
-import Img_Slider from '../../Img_Slider/Img_Slider';
-import Digital_Solution from '../../Digital_Solution/Digital_Solution';
+import WhatWeDo from '../../What_we_do/What_we_do';
+import ImgSlider from '../../Img_Slider/Img_Slider';
+import DigitalSolution from '../../Digital_Solution/Digital_Solution';
 import Strategy from '../../Strategy/Strategy';
-import Our_Clients from '../../Our_Clients/Our_Clients';
+import OurClients from '../../Our_Clients/Our_Clients';
 import Portfolio from '../../Portfolio/Portfolio'
-import Our_News from '../../Our_News/Our_News';
+import OurNews from '../../Our_News/Our_News';
 import Reviews from '../../Reviews/Reviews';
 import Footer from '../../Footer/Footer';
 import ScrollToTop from '../../ScrollToTop/ScrollToTop';
@@ -17,13 +17,13 @@ const Home = () => {
     <div>
       <Navbar />
       <Hero />
-      <What_we_do />
-      <Img_Slider />
-      <Digital_Solution />
+      <WhatWeDo />
+      <ImgSlider />
+      <DigitalSolution />
       <Strategy />
-      <Our_Clients colour="yellow" />
+      <OurClients colour="yellow" />
       <Portfolio />
-      <Our_News />
+      <OurNews />
       <Reviews />
       <Footer />
       <ScrollToTop />
@@ -32,6 +32,3 @@ const Home = () => {
 }
 
 export default Home
-
-
-

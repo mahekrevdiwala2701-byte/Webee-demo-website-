@@ -57,7 +57,7 @@ const Footer = () => {
                             <h1>Connect With Us</h1>
                             <div className='icons d-flex'>
                                 <p><a href="https://www.facebook.com/webeesocial/" target='blank'><i class="fab fa-facebook-f"></i></a></p>
-                                <p><a href=""><i class="fab fa-twitter"></i></a></p>
+                                <p><a href="https://twitter.com/" target='blank'><i className="fab fa-twitter"></i></a></p>
                                 <p><a href="https://www.linkedin.com/company/webeesocial/" target='blank'><i class="fab fa-linkedin-in"></i></a></p>
                                 <p><a href="https://www.instagram.com/webeesocial/" target='blank'><i class="fab fa-instagram-square"></i></a></p>
                                 <p><a href="https://www.youtube.com/channel/UCDT0KsuN4ytOlEwX_tZxAqA"><i class="fab fa-youtube"></i></a></p>

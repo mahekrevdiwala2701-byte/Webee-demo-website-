@@ -24,7 +24,7 @@ const Navbar = () => {
   return (
         <nav className={`navbar navbar-expand-xl navbar_wrap`}>
         <div className='header_logo'> 
-            <a href="\"><img src={logo} className='navbar_logo'/></a>
+            <a href="/"><img src={logo} alt="WeBee logo" className='navbar_logo'/></a>
         </div>
         <button
           className="navbar-toggler"
@@ -85,5 +85,3 @@ const Navbar = () => {
 
 
 export default Navbar
-
-

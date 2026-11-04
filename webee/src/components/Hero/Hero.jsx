@@ -2,7 +2,6 @@ import React from 'react'
 import './Hero.css'
 import line from '../../assets/hero_line.png'
 import { motion } from 'framer-motion'
-import { keyboard } from '@testing-library/user-event/dist/keyboard'
 
 const Hero = () => {
   return (
@@ -19,7 +18,7 @@ const Hero = () => {
                   stiffness:100,
                   damping:10,
                   delay:0.7
-                }} src={line} style={{height:'1.2rem',width:'6rem'}}/>
+                }} src={line} alt="" style={{height:'1.2rem',width:'6rem'}}/>
                 <motion.h1 initial={{opacity:0,y:100}} animate={{opacity:1,y:0}} transition={{
                   type:"spring",
                   stiffness:100,
@@ -32,7 +31,7 @@ const Hero = () => {
                   stiffness:100,
                   damping:10,
                   delay:0.7
-                }} src={line} style={{height:'1.2rem',width:'6rem'}}/>
+                }} src={line} alt="" style={{height:'1.2rem',width:'6rem'}}/>
                 </div>
             </div>
         </motion.div>
@@ -41,5 +40,3 @@ const Hero = () => {
 }
 
 export default Hero
-
-

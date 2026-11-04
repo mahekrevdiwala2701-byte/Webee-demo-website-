@@ -1,7 +1,6 @@
 import React from 'react'
 import Strategy1 from '../../../../assets/strategy1.png'
 import Navbar from '../../../Navbar/Navbar'
-import { JSAnimation } from 'framer-motion'
 import Footer from '../../../Footer/Footer'
 
 const Website_Design = () => {
@@ -30,4 +29,3 @@ const Website_Design = () => {
 }
 
 export default Website_Design
-

@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import ReCAPTCHA from 'react-google-recaptcha';
 import './Get_in_touch.css';
 import map from '../../../assets/map.png'
 import map2 from '../../../assets/map2.png'
@@ -21,7 +20,6 @@ const GetInTouch = () => {
   });
 
   const [errors, setErrors] = useState({});
-  const [captcha, setCaptcha] = useState(null);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -33,7 +31,6 @@ const GetInTouch = () => {
     for (let key in formData) {
       if (!formData[key]) newErrors[key] = 'This field is required';
     }
-    if (!captcha) newErrors.captcha = 'Please verify CAPTCHA';
     setErrors(newErrors);
     return Object.keys(newErrors).length === 0;
   };
@@ -69,6 +66,7 @@ const GetInTouch = () => {
             <h3>Registered Office</h3>
             <p>Plot no.7 Sector 22 Dwarka Delhi, New Delhi, Delhi 110075</p>
             <iframe
+            title="Registered Office map"
             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d224369.36054363693!2d77.197389!3d28.516529000000002!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1baa5c2ef655%3A0xaae1db6848921c30!2sWeBeeSocial%20India%20%7C%20Creative%20Agency%20New%20Delhi%20%7C%20Digital%20Marketing%20Services%20in%20India!5e0!3m2!1sen!2sin!4v1747902123875!5m2!1sen!2sin"
             width="300"
             height="120"
@@ -77,11 +75,12 @@ const GetInTouch = () => {
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
             ></iframe>
-            <img src={map2} />
+            <img src={map2} alt="" />
 
             <h3 style={{paddingTop:"1rem"}}>New Delhi (India)</h3>
             <p>Innov8 Old Fort, Saket District Centre, District Centre, Sector 6, Pushp Vihar, New Delhi, 110017</p>
             <iframe
+            title="New Delhi office map"
             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d231067.25346233253!2d55.269692!3d25.188858!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f69122763c955%3A0x212d1a288e7d074b!2sWeBeeSocial!5e0!3m2!1sen!2sin!4v1747902536681!5m2!1sen!2sin"
             width="300"
             height="120"
@@ -90,12 +89,13 @@ const GetInTouch = () => {
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
             />
-            <img src={map2} />
+            <img src={map2} alt="" />
 
 
             <h3 style={{paddingTop:"1rem"}}>Dubai (UAE)</h3>
             <p>South Ridge Tower 6, Downtown Dubai, UAE</p>
             <iframe
+            title="Dubai office map"
             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d231067.25346233253!2d55.269692!3d25.188858!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f69122763c955%3A0x212d1a288e7d074b!2sWeBeeSocial!5e0!3m2!1sen!2sin!4v1747902536681!5m2!1sen!2sin"
             width="300"
             height="120"
@@ -104,11 +104,12 @@ const GetInTouch = () => {
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
             />
-            <img src={map2} />
+            <img src={map2} alt="" />
 
             <h3>Toronto (Canada)</h3>
             <p>40 Pintail Crescent, North York, ON M3A 2Y7, Canada</p>
             <iframe
+            title="Toronto office map"
             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d184376.3500670474!2d-79.33714!3d43.77534!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4d32026a89213%3A0xa353b6bd8d275663!2sWebeeSocial!5e0!3m2!1sen!2sin!4v1747903011662!5m2!1sen!2sin"
             width="300"
             height="120"
@@ -161,15 +162,6 @@ const GetInTouch = () => {
                     <option>Above INR 5 Lakh per Month</option> 
                 </select>
                 <div className="invalid-feedback">{errors.budget}</div>
-                </div>
-
-                <div className="col-12">
-                {/* <ReCAPTCHA
-                    sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"
-                    onChange={setCaptcha}
-                    className={errors.captcha ? 'is-invalid' : ''}
-                />
-                {errors.captcha && <div className="text-danger mt-1">{errors.captcha}</div>} */}
                 </div>
 
                 <div className="col-12 pb-4">
